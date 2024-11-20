@@ -1,0 +1,7 @@
+services:
+  php:
+    image: "webdevops/php:8.3-alpine"
+    working_dir: /app
+    volumes:
+      - ".:/app"
+    tty: true
